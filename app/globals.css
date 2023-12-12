@@ -1,0 +1,62 @@
+@import url("/public/fonts/nasalization-rg.otf");
+@font-face {
+  font-family: "Nasalization";
+  src: url("/public/fonts/nasalization-rg.otf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(210, 202, 222);
+  background-color: rgb(27, 1, 50);
+  background-image: url("/imgs/landingpage.png");
+  background-size: cover;
+}
+
+.img-box {
+  @layer {
+    box-shadow: 29px -30px 0px 8px rgba(54, 31, 67, 1);
+    -webkit-box-shadow: 29px -19px 0px 8px rgba(54, 31, 67, 1);
+    -moz-box-shadow: 29px -19px 0px 8px rgba(54, 31, 67, 1);
+  }
+}
+
+.comingsoon {
+  @layer {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.comingsoon > * {
+  @layer {
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem /* 1280px */;
+    gap: 1rem /* 16px */;
+    padding: 1rem /* 16px */;
+  }
+}
+
+.comingsoon-content {
+  @layer {
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem /* 1280px */;
+    gap: 1rem /* 16px */;
+    padding: 1rem /* 16px */;
+  }
+}
+
+.custom-btn {
+  @apply px-7 py-5 text-base rounded-none font-nasa bg-slate-100 text-black ;
+}

@@ -1,0 +1,100 @@
+<div className="hero min-h-screen bg-base-200">
+  <div className="hero-content flex-col lg:flex-row-reverse">
+    <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+    <div>
+      <h1 className="text-5xl font-bold">Box Office News!</h1>
+      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
+
+<nav className="font-nasa flex flex-row gap-96 m-9 justify-between ">
+      <div className="text-5xl items-start">
+        <Link href="/">tiny space greenz</Link>
+      </div>
+
+      <div className="text-5xl flex flex-row gap-10 items-end">
+        <Link href="/about">about</Link>
+        <Link href="/products"> products</Link>
+        <a href="/">
+          <Image
+            src="/icons/bag.svg"
+            alt="shopping bag icon"
+            width={50}
+            height={30}
+            priority
+          />
+        </a>
+      </div>
+    </nav>
+
+    daisyui
+    <div className="navbar bg-base-100">
+  <div className="flex-1">
+    <a className="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div className="flex-none">
+    <ul className="menu menu-horizontal px-1">
+      <li><a>Link</a></li>
+      <li>
+        <details>
+          <summary>
+            Parent
+          </summary>
+          <ul className="p-2 bg-base-100 rounded-t-none">
+            <li><a>Link 1</a></li>
+            <li><a>Link 2</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
+
+.hero-content {
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem/* 1280px */;
+    gap: 1rem/* 16px */;
+    padding: 1rem/* 16px */;
+}
+
+hero-content flex-col lg:flex-row
+
+{/* image */}
+          <div>
+            <Image
+              src="/icons/box.jpg"
+              alt="contact image with microgreen image"
+              width={100}
+              height={20}
+            />
+          </div>
+
+
+ <main className="hero flex flex-col  min-h-screen">
+      {/*header thing*/}
+      <div className="navbar">
+        <div className="flex-1 text-5xl ml-24">
+          <h1 className="font-nasa">
+            <strong>services</strong>
+          </h1>
+        </div>
+
+        <div className="flex-none mr-24">
+          <Link href="/about">
+            <button className="btn rounded-none text-lg truncate">
+              see more
+            </button>
+          </Link>
+        </div>
+      </div>
+
+      {/* services */}
+      
+    </main>         
+
+    flex flex-col laptop:flex-row z-0 items-center justify-center gap-3 max-w-[95rem]
