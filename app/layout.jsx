@@ -1,7 +1,7 @@
 import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+
 
 const josefin = Josefin_Sans({ subsets: ["latin"] });
 
@@ -17,8 +17,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         <hr className="h-px my-5 bg-gray-200 border-0" />
         {children}
-        <hr className="h-px my-5 bg-gray-200 border-0" />
-        <Footer/>
+        
       </body>
     </html>
   );
