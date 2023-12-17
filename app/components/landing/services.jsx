@@ -6,12 +6,12 @@ export default function Services() {
     <main className="hero min-h-screen">
       <section class="z-0 items-center justify-center max-w-[95rem]">
         <br />
-        <h1 class="mb-12 mt-12 text-center text-6xl font-bold font-nasa tracking-[2rem]">
+        <h1 class="my-5 mx-5 text-center text-7xl font-bold font-nasa tracking-[2rem]">
           SERVICES
         </h1>
         <br />
-        <div class="flex flex-wrap mx-9 my-5 p-5 ">
-          <div class="mb-6 w-full shrink-0 grow-0 basis-auto px-3  laptop:mb-0 laptop:w-4/12">
+        <div class="flex flex-wrap mx-9 my-10 px-20">
+          <div class="mb-6 w-full shrink-0 grow-0 basis-auto px-3  laptopL:mb-0 laptopL:w-4/12">
             <p class="mb-6 font-bold uppercase text-violet-500">
               Tiny Space Greenz
             </p>

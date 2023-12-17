@@ -58,13 +58,6 @@ body {
 }
 
 .custom-btn {
-  @apply px-7 py-5 text-base rounded-none font-nasa bg-slate-100 text-black ;
+  @apply px-4 py-4 text-base rounded-none font-nasa bg-slate-100 text-black ;
 }
 
-.notfound {
-  @layer{
-    background-color: rgb(27, 1, 50);
-    background-image: url("/imgs/notFound.png");
-    background-size: cover;
-  }
-}
