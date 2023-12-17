@@ -5,7 +5,11 @@ export default function Contact() {
     <main className="hero min-h-screen">
       <footer className="footer footer-center p-20 rounded m-15">
         <div>
-          <h2 className=" text-4xl">Connect with us to explore collaboration opportunities. We welcome inquiries, partnerships, and conversations about bringing fresh ideas to life. Let's grow together!</h2>
+          <h2 className=" text-4xl">
+            Connect with us to explore collaboration opportunities. We welcome
+            inquiries, partnerships, and conversations about bringing fresh
+            ideas to life. Let's grow together!
+          </h2>
         </div>
         <nav>
           <div className="flex flex-row m-6 gap-3">
@@ -40,7 +44,9 @@ export default function Contact() {
             </a>
           </div>
         </nav>
-        <div><h1 className="font-nasa text-5xl">tiny space greenz</h1></div>
+        <div>
+          <h1 className="font-nasa text-5xl">tiny space greenz</h1>
+        </div>
         <aside>
           <p className=" text-lg">made by adaysha_</p>
         </aside>
