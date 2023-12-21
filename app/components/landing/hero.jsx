@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import ScrollToBottomButton from "../scrolldownbutton";
 
 export default function Hero() {
   return (
     <main className="hero min-h-screen">
       <div className="flex flex-col z-0 items-center justify-center max-w-[95rem] p-10 mx-24 my-36 laptop:flex-row-reverse">
         <Image
-          src="/imgs/hero.jpg" 
+          src="/imgs/hero.jpg"
           alt="hero image of a microgreen plant"
           width={400}
           height={100}
@@ -14,7 +15,7 @@ export default function Hero() {
           className="img-box"
         />
 
-        <div className=""> 
+        <div className="">
           <h1 className="text-6xl  font-nasa">
             Discover the freshest microgreens in Ashburton!
           </h1>
@@ -24,10 +25,7 @@ export default function Hero() {
             cultivated with care and delivered straight to your plate.
           </h2>
 
-          <Link href="/">
-            <button className="custom-btn ">contact us!</button>
-            {/* goes down the page */}
-          </Link>
+          <ScrollToBottomButton/>
         </div>
       </div>
     </main>

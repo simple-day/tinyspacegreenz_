@@ -10,7 +10,7 @@ export default function Navbar() {
 
       <div className="flex-none">
         <ul className="menu menu-horizontal mr-8 mt-6 px-1 text-2xl">
-          <li className="transition ease-in-out delay-200 hover:scale-110">
+          <li className="transition ease-in-out delay-200 hover:scale-110 ">
             <Link href="/about">about</Link>
           </li>
           <li className="transition ease-in-out delay-200 hover:scale-110">

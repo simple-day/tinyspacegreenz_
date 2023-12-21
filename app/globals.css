@@ -10,7 +10,7 @@
 
 body {
   color: rgb(210, 202, 222);
-  background-color: rgb(27, 1, 50);
+  background-color: #1b0132;
   background-image: url("/imgs/landingpage.webp");
   background-size: cover;
 }
@@ -58,6 +58,6 @@ body {
 }
 
 .custom-btn {
-  @apply px-4 py-4 text-base rounded-none font-nasa bg-slate-100 text-black ;
+  @apply px-4 py-4 text-base rounded-none font-nasa bg-slate-100 text-black hover:bg-violet-500;
 }
 

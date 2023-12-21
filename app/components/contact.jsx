@@ -6,9 +6,11 @@ export default function Contact() {
       <footer className="footer footer-center p-20 rounded m-15">
         <div>
           <h2 className=" text-4xl">
-            Connect with us to explore collaboration opportunities. We welcome
-            inquiries, partnerships, and conversations about bringing fresh
-            ideas to life. Let's grow together!
+            Explore the diverse world of microgreens with Tiny Space Greenz, and
+            elevate your culinary creations to a whole new level. We invite you
+            to get in touch with us to discover how our microgreens can enhance
+            your dishes. Join us in the pursuit of freshness and flavor – choose
+            Tiny Space Greenz today!
           </h2>
         </div>
         <nav>
@@ -24,7 +26,7 @@ export default function Contact() {
                 width={50}
                 height={50}
                 priority
-                className="m-2 transition ease-in-out delay-100  hover:scale-110 "
+                className="m-2 transition ease-in-out delay-100  hover:scale-110  "
               ></Image>
             </a>
 
