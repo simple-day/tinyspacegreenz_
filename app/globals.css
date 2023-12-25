@@ -23,6 +23,12 @@ body {
   }
 }
 
+/* @media screen and (max-width: 320px) {
+  .img-box{
+    display: none;
+  }
+} */
+
 .comingsoon {
   @layer {
     display: grid;
@@ -58,6 +64,6 @@ body {
 }
 
 .custom-btn {
-  @apply px-4 py-4 text-base rounded-none font-nasa bg-slate-100 text-black hover:bg-violet-500;
+  @apply mobS:px-3 mobS:py-4 mobS:text-sm tablet:px-4 tablet:py-4 tablet:text-base rounded-none font-nasa bg-slate-100 text-black hover:bg-violet-900 hover:text-gray-300;
 }
 
