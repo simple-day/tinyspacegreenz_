@@ -47,7 +47,7 @@ export default function Contact() {
           </div>
         </nav>
         <div>
-          <h1 className="font-nasa text-5xl">tiny space greenz</h1>
+          <h1 className="font-nasa text-5xl">TINY SPACE GREENZ</h1>
         </div>
         <aside>
           <p className=" text-lg">made by adaysha_</p>
