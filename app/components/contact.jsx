@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <main className="hero min-h-screen">
-      <footer className="footer footer-center p-20 rounded m-15">
+      <footer className="footer footer-center mobS:p-6 p-20 rounded m-15">
         <div>
-          <h2 className=" text-4xl">
+          <h2 className="mobS:text-2xl  laptop:text-4xl">
             Explore the diverse world of microgreens with Tiny Space Greenz, and
             elevate your culinary creations to a whole new level. We invite you
             to get in touch with us to discover how our microgreens can enhance
@@ -47,7 +47,7 @@ export default function Contact() {
           </div>
         </nav>
         <div>
-          <h1 className="font-nasa text-5xl">TINY SPACE GREENZ</h1>
+          <h1 className="font-nasa mobS:text-3xl tablet:text-5xl">TINY SPACE GREENZ</h1>
         </div>
         <aside>
           <p className=" text-lg">made by adaysha_</p>

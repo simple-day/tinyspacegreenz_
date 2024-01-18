@@ -4,9 +4,11 @@ import Services from "./components/landing/services"
 import Testimonials from "./components/landing/testimonials"
 import Contact from "./components/contact"
 
+
 export default function Home() {
   return (
     <main>
+     
       <Hero/>
       <hr className="w-80 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"/>
       <Slctproducts/>

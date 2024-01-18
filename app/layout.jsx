@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={josefin.className}>
        
-          <Navbar />
+         <Navbar/>
           <hr className="h-px my-5 bg-gray-200 border-0" />
           {children}
         

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
+
   return (
     <nav className="font-nasa navbar">
       <div className="text-2xl flex-1 ml-8 mt-6 p-3">
@@ -29,6 +30,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
+      
     </nav>
   );
 }
