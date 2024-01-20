@@ -12,7 +12,7 @@ export default function Services() {
             </h2>
             <br />
             <p className="mt-4 text-xl text-gray-300">
-              At Tiny Space Greenz, we're passionate about bringing the
+              At Tiny Space Greenz, we&apos;re passionate about bringing the
               freshest, most nutritious microgreens to the Mid Canterbury
               region. Our journey began with a commitment to quality and
               innovation, making us the very first commercial microgreen and
@@ -21,7 +21,7 @@ export default function Services() {
               What sets us apart? We grow our microgreens in nutrient-rich soil
               within a carefully controlled environment. This dedication to
               perfection ensures that every leaf bursts with flavor and packs a
-              powerful nutritional punch. Whether you're a culinary enthusiast,
+              powerful nutritional punch. Whether you&apos;re a culinary enthusiast,
               a restaurant owner, or simply someone who appreciates the finest
               greens, our microgreens are a delicious addition to your menu.
             </p>
