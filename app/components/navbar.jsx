@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link href="/">tiny space greenz</Link>
       </div>
 
-      <div className="flex-none">
+      <div className="laptop:flex-none ">
         <ul className="menu menu-horizontal mr-8 mt-6 px-1 text-2xl">
           <li className="transition ease-in-out delay-200 hover:scale-110 ">
             <Link href="/about">about</Link>
@@ -30,6 +30,9 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
+
+      
+      
       
     </nav>
   );
