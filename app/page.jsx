@@ -3,7 +3,7 @@ import Services from "./components/landing/services";
 import Testimonials from "./components/landing/testimonials";
 import Contact from "./components/contact";
 import Heroo from "./components/landing/heroo";
-Heroo;
+
 
 export default function Home() {
   return (
