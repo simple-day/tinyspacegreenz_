@@ -10,7 +10,7 @@ export default function Heroo() {
             <div className="relative h-64 mobS:h-80 laptop:h-full">
               <Image
                 src="/imgs/hero.jpg"
-                alt="hero image of a microgreen plant"
+                alt="hero"
                 width={400}
                 height={100}
                 priority
@@ -24,7 +24,7 @@ export default function Heroo() {
 
             <div className="p-10 laptop:p-24">
               <h2 className="font-nasa mobS:text-3xl tablet:text-5xl text-zinc-50">
-                discover the freshest microgreens in Ashburton!
+                Discover the freshest microgreens in Ashburton!
               </h2>
 
               <p className="mt-4 mb-4 mobS:text-xl tablet:text-2xl">
