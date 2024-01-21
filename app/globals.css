@@ -1,12 +1,13 @@
-@import url("/public/fonts/nasalization-rg.otf");
-@font-face {
-  font-family: "Nasalization";
-  src: url("/public/fonts/nasalization-rg.otf");
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("/fonts/nasalization-rg.otf");
+@font-face {
+  font-family: "Nasalization";
+  src: url("/fonts/nasalization-rg.otf") format("opentype");
+  display: "swap";
+}
 
 body {
   color: rgb(210, 202, 222);
