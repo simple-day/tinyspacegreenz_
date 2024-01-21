@@ -24,7 +24,7 @@ export default function Heroo() {
 
             <div className="p-10 laptop:p-24">
               <h2 className="font-nasa mobS:text-3xl tablet:text-5xl text-zinc-50">
-                Discover the freshest microgreens in Ashburton!
+                discover the freshest microgreens in Ashburton!
               </h2>
 
               <p className="mt-4 mb-4 mobS:text-xl tablet:text-2xl">
